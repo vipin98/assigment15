@@ -1,0 +1,65 @@
+.page{
+    margin: 64px auto;
+    width: 900px;
+    height: auto;
+    /* margin-left: 56px; */
+  }
+  .practiceHeading{
+    font-weight: 500;
+      font-size: 40px;
+      color: rgba(0,0,0,0.8);
+      letter-spacing: 1px;
+      margin-bottom: 0;
+  }
+  .skillsPara{
+    margin-top: 0;
+      font-family: Roboto,sans-serif;
+      color: rgba(0,0,0,0.6);
+      letter-spacing: 1px;
+  }
+  
+  .skillCard{
+    display: flex;
+      flex-wrap: wrap;
+      margin-top: 20px;
+  }
+  
+  .cardContainer{
+    width: calc(100%-33.3%);
+      padding: 5px;
+      position: relative;
+      margin-left: 35px;
+      margin-right: 12px;
+    
+  }
+  .cardWrapper{
+    background: #FFFFFF;
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 1px #0096ff;
+    color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    font-family: Raleway;
+    height: 15vh;
+  }
+  .cardContent{
+    width: 50%;
+  }
+  .cardThumbnail{
+    width: 65px;
+  }
+  .skillCardName{
+    font-weight: 500;
+    font-size: 24px;
+    margin: 0;
+    letter-spacing: 1px;
+  }
+  .amount{
+    font-style: italic;
+    margin-top: 8px;
+    font-family: Roboto;
+    font-size: 15px;
+    color: rgba(0,0,0,0.6);
+  }
