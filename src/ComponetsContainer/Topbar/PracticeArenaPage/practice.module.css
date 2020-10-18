@@ -17,6 +17,11 @@
       color: rgba(0,0,0,0.6);
       letter-spacing: 1px;
   }
+   a{
+    text-decoration: none;
+    cursor: pointer;
+   
+ }
   
   .skillCard{
     display: flex;
@@ -25,13 +30,17 @@
   }
   
   .cardContainer{
-    width: calc(100%-33.3%);
+   /* width : calc(100%-33.3%); */
+    width: 25%;
       padding: 5px;
-      position: relative;
-      margin-left: 35px;
+     
+      margin-left: 26px;
       margin-right: 12px;
-    
+      /* display: flex; */
+      /* flex-wrap: wrap; */
+      /* box-sizing: border-box; */
   }
+ 
   .cardWrapper{
     background: #FFFFFF;
     padding: 10px 20px;
@@ -45,7 +54,7 @@
     height: 15vh;
   }
   .cardContent{
-    width: 50%;
+    width: 100%;
   }
   .cardThumbnail{
     width: 65px;

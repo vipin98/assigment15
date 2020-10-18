@@ -1,0 +1,63 @@
+.GradePageContainer{
+    width: 100%;
+    height:100vh;
+   
+    padding-top: 30px;
+    padding-bottom: 45px;
+}
+.GradePageContainerWrap{
+    width :65%;
+    height: 300px;
+    background-color: white;
+    box-shadow: 0 0 4px 0 grey;
+   /* margin-top: 50px; */
+   margin-left: auto;
+   margin-right: auto;
+  
+   border-radius: 8px;
+
+}
+
+.GradePageCardContainer{
+    width: 90%;
+      padding: 5px;
+      position: relative;
+      margin-left: 35px;
+      margin-right: 12px;
+    
+  }
+  .GradePageCardWrapper{
+    /* background: #FFFFFF; */
+    padding: 10px 15px;
+    width: 80%;
+    /* border-radius: 10px; */
+    /* box-shadow: 0 0 2px 1px #0096ff; */
+    color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    font-family: Raleway;
+    /* height: 15vh; */
+  }
+  .GradePageCardContent{
+    width:25%;
+    height: 1px;
+  }
+  .GradePageCardThumbnail{
+    width: 65px;
+  }
+  .GradePageCardName{
+    font-weight: 500;
+    font-size: 24px;
+    padding-top: 10px;
+    letter-spacing: 1px;
+  }
+  .GradePageamount{
+      display: flex;
+      justify-content: space-between;
+      /* padding-left: 10px; */
+    font-style: italic;
+    margin-top: 8px;
+    font-family: Roboto;
+    font-size: 15px;
+    color: rgba(0,0,0,0.9);
+  }

@@ -15,6 +15,7 @@
    
  
  }
+ 
  .leftSectionmenu >a{
    text-decoration: none;
    color: black;
@@ -40,13 +41,18 @@
    margin-left: 22px;
    margin-right: 12px;
  }
+ .rightSectionmenu >i{
+   position: relative;
+   font-size: 22px;
+ }
  .count{
    color: white;
    background-color: #dc3545;
-   width: 1%;
+   width: 22px;
    text-align: center;
-   border-radius: 5px;
-   top: 12px;
+   border-radius: 8px;
+   right: 175px;
+   top: 14px;
    font-size: 15px;
    position: absolute;
  }

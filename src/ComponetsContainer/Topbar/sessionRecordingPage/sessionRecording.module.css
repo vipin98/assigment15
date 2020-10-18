@@ -1,0 +1,22 @@
+.sessionRecordingContainer{
+    width: 100%;
+    height:110vh;
+    padding-top: 120px;
+    padding-bottom: 45px;
+}
+.sessionRecordingContainerWrap{
+    width :90%;
+    height: 680px;
+    background-color: white;
+    box-shadow: 0 0 4px 0 grey;
+   margin-top: 50px;
+   margin-left: auto;
+   margin-right: auto;
+  
+   border-radius: 8px;
+
+}
+.Recordingvideo{
+    width: 100%;
+    height: 100%;
+}

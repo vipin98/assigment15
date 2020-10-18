@@ -1,0 +1,75 @@
+.ClassroomPageMainContainer{
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    /* margin-left: auto; */
+    padding-left: 150px;
+    /* padding-right: 50px; */
+    box-sizing: border-box;
+    
+
+}
+.ClassroomHeading{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+}
+.ClassroomPara{
+    font-size: 20px;
+}
+.ClassroomPageCardContainer{
+    display: flex;
+    width:100%;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+   margin-bottom: 30px;
+  
+}
+.ClassroomCardWrap{
+    width: 20%;
+    height: 290px;
+    border: 1px solid  #007bff;
+    border-radius: 9px;
+    box-shadow: 2px 2px 4px #ccc;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+.ClassroomCardWrap >a{
+    text-decoration: none;
+}
+/* .VideoCard {
+    width: calc(100% - 16px);
+    border-radius: 6px;
+    box-shadow: 2px 2px 4px #ccc;
+    margin: 8px;
+    text-decoration: none;
+    display: block;
+    
+} */
+
+.Thumbnail {
+    width: 100%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.Title {
+    margin: 0;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color: rgba(0, 0, 0, 0.8);
+    padding: 8px ;
+
+}
+.units{
+    margin: 0;
+    font-size: 13px;
+    letter-spacing: 1px;
+    color:  #0096ff;
+    padding-top: 46px;
+    padding-left: 8px;
+    font-weight: 500;
+}

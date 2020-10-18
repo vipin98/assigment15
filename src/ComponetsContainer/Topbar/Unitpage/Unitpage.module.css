@@ -1,0 +1,101 @@
+.CurriculumPageContainerWrap{
+    width: 80%;
+    height: auto;
+   /* align-items: center; */
+   padding-left:90px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    box-sizing: border-box;
+   
+}
+.CurriculumPageContainerLeft{
+    width: 40%;
+    height: auto;
+    margin-left: auto;
+}
+.CurriculumPageContainerRight{
+    width: 100%;
+    height: auto;
+   margin-left: 40px;
+
+    /* margin-right: auto; */
+}
+.CurriculumPageAttendence{
+    width:50%;
+    height:150px;
+    background-color: white;
+    box-shadow: 0 0 2px 0 grey;
+    border-radius: 8px;
+    padding:30px;
+    margin-top: 45px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.CurriculumPageAttendenceContant{
+    display: flex;
+    justify-content: space-between;
+}
+.CurriculumPageAttendenceTitle{
+    font-weight: 400;
+}
+.CurriculumPageAttendenceHeading{
+    font-weight: 800;
+    font-size: 12px;
+}
+.CurriculumPageModule{
+    width:50%;
+    height:auto;
+    background-color: white;
+    box-shadow: 0 0 2px 0 grey;
+    border-radius: 8px;
+    padding:20px;
+    margin-top: 45px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.CurriculumPageModuleHeading{
+    font-size: 24px;
+    font-weight: 500;
+}
+.CurriculumPageModulePara{
+    color: #0096ff;
+}
+.CurriculumPageTopic{
+    width:50%;
+    height:auto;
+    padding: 0 30px;
+    /* background-color: white; */
+    box-shadow: 0 0 2px 0 grey;
+    border-radius: 8px;
+    margin-top: 45px;
+    margin-right: auto;
+   
+}
+.CurriculumPageTopicHead{
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  /* box-shadow: 0 0 2px 0 grey; */
+  height: auto;
+   font-size: 30px;
+}
+.CurriculumPageTopicImg{
+    
+}
+.CurriculumPageTopicLink{
+    width: 100%;
+    height: auto;
+    /* box-shadow: 0 0 2px 0 grey; */
+ /* opacity: 0;
+ max-height: 0;
+ overflow-y: hidden; */
+}
+.CurriculumPageTopic >a{
+    text-decoration: none;
+}
+.CurriculumPageLinks{
+    text-decoration: none;
+    color: #0096ff;
+}
