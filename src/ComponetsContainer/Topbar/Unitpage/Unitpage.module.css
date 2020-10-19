@@ -82,7 +82,7 @@
    font-size: 30px;
 }
 .CurriculumPageTopicImg{
-    
+    transform: translate(-50%) rotate(90deg);
 }
 .CurriculumPageTopicLink{
     width: 100%;
@@ -91,6 +91,14 @@
  /* opacity: 0;
  max-height: 0;
  overflow-y: hidden; */
+}
+.CurriculumPageTopicLinkActive{
+    opacity: 0;
+ max-height: 0;
+ overflow-y: hidden;
+}
+.CurriculumPageTopicImgActive{
+    transform: translate(-50%) rotate(180deg);
 }
 .CurriculumPageTopic >a{
     text-decoration: none;

@@ -6,8 +6,28 @@ import {getBackendData} from '../../../Apicalls/api'
 
 class Unitpage extends React.Component {
     state ={
-       UnitData : []
+       UnitData : [],
+       Active : false,
     }
+    hendelclick = (e)=>{
+        const data3 = e.target.id
+        console.log(data3)
+           const data2 = parseInt(data3)
+           
+        const data = this.state.UnitData
+       const data1 = data.map((item,i)=>{
+           if(i == data3){
+               this.setState({Active : !(this.state.Active)})
+           }
+        //   else  {
+
+        //     this.setState({Active : !(this.state.Active)})
+        //   }
+    
+        return data3
+       })
+       
+   }
     componentDidMount(){
         getBackendData()
         .then( response =>{
@@ -19,16 +39,17 @@ class Unitpage extends React.Component {
             console.log('cardData failed!!!')
         })
     }
+   
     hendelcard = ()=>{
         const data = this.state.UnitData
-        const data1 = data.map(item =>{
+        const data1 = data.map((item,index)=>{
             return (
-                <div className={classes.CurriculumPageTopic}>
-                <div key={item.id} onClick={this.hendelclick()} className={classes.CurriculumPageTopicHead}>
-                {item.title} <img  className={classes.CurriculumPageTopicImg}src="https://assessments.edyoda.com/static/images/chevron.svg"/>
+                <div key={index}  onClick={this.hendelclick} className={classes.CurriculumPageTopic}>
+                <div  id={index}  className={classes.CurriculumPageTopicHead}>
+                {item.title} <img  className={[classes.CurriculumPageTopicImg,this.state.Active ===true ?  classes.CurriculumPageTopicImgActive  :null].join(' ')}src="https://assessments.edyoda.com/static/images/chevron.svg"/>
                 </div>
               
-               <div className={classes.CurriculumPageTopicLink}>
+               <div  className={[classes.CurriculumPageTopicLink,this.state.Active === true ?  classes.CurriculumPageTopicLinkActive:null  ].join(' ')}>
                <Link to="/sessionPlanPage"><p className={classes.CurriculumPageLinks}>Session Plan</p></Link>
                 <Link to="/sessionRecording"><p className={classes.CurriculumPageLinks}>Session Recording</p></Link>  
                </div>
@@ -38,11 +59,11 @@ class Unitpage extends React.Component {
         })
         return data1
     }
-    hendelclick = ()=>{
-
-    }
+   
 
     render(){
+         const data = this.state.Active
+        console.log(data)
         return(
             <div className={classes.CurriculumPageContainerWrap}>
             
